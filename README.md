@@ -1,1 +1,17 @@
-# Predator-vs-Prey
+Challenges
+
+My implementation of the Predator vs Prey simulation wasn’t met without its fair share of problems, the biggest problem I was facing was the movement system and making sure each entity whether it be the prey or predator move with the appropriate functionality. This is the main problem with my simulation as creating purposeful, yet random movement can have its complications. Besides this problem another difficulty I had when creating this simulation was the connectivity between the different classes and their interaction between each other. For example, I attempted to make a breeding system for the prey but I was not able to create a new entity in the prey class that would be seen in the model. Because of this roadblock I figured it would be best to not implement it.
+
+The Project
+
+The project is fairly straight forward. There is a environment where the entire simulation is being ran. Inside this environment we have multipliers which boost the speed of the prey that enters them, this multiplier does not apply for the predator. In this simulation the multipliers are on the outside of a inner cube within the environment. The limit of the environment when came in contact with by prey will reflect the entity in the opposite direction.
+
+The prey in this simulation will be actively trying to evade the predator. If the predator is within a certain distance of the prey, the prey will begin to move in the opposite direction in a effort to escape the predator.
+
+If the predator in this simulation is within a certain distance of a prey, he will hunt them down or follow them until he is within range. When he is within a range of a prey, he is hunting he will eat it. The predator after eating a prey will begin to move slightly faster each time.
+
+The Flee distance and the hunt distance for both the prey and predator can be easily edited to change how you would like the simulation to perform.
+
+Results The results of the simulation were fairly successful, I was able to get the prey to actively try to avoid the predator as well as the predator trying to hunt down each prey. I was also able to implement the environment multipliers and the prey speed up system. The only aspect that I wasn’t able to implement correctly was the prey breeding system.
+
+Possible Improvements Some of the improvements that could be main for my predator vs prey simulation are adding more predators or more obstacles in the environment that could have functionality with the prey. One idea I had was creating a den of sort for the prey to hide them and allow them to breed for a certain amount of time. The prey would not be able to enter these dens and the prey would have a cooldown after they visited these dens. I wanted the dens to only be entered from one side and act like a blockade when attempted to enter from a non-entrance side. The idea of this improvement came to mind from playing Hunter Call of the Wild and watching how the rabbits burrow to their dens when there is trouble and there is no way to hunt them while they are there. After a little while though the rabbits were forced to exit their dens and were forced to run away from the people hunting them. While inside these dens the prey would be able to breed with each other in order to make it harder for the predator.
