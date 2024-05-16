@@ -1,0 +1,10 @@
+*.o
+*.obj
+*.d
+*.dep
+*.exe
+*.so
+!sample/dashboard/model.cpython-39-x86_64-linux-gnu.so
+*.a
+*.lib
+*.dll
