@@ -8,9 +8,7 @@ A live simulation of Predator and Prey entities using bokeh as the dashboard
 - **Libraries and Frameworks**: 
   - Required imports can be found in requirements.txt
 
-
-## Application Flow
-### Use
+## Setup
 - To use the live simulation download the required imports
 - Then type make clean
 - And make dashboard in the terminal
