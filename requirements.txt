@@ -5,3 +5,4 @@ bokeh>=3.0.0
 pybind11>=2.10.0
 nlohmann-json>=3.11.2
 cmake>=3.22.0
+vcpkg  # C++ package manager - must be installed separately
