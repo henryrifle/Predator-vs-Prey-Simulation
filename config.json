@@ -1,0 +1,8 @@
+{
+    "region_limit": 100.0,
+    "predator_speed": 7.0,
+    "prey_speed": 0.7,
+    "num_prey": 10,
+    "breeding_zone_radius": 20.0,
+    "breeding_cooldown": 5.0
+}
